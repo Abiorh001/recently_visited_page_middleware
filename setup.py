@@ -1,0 +1,27 @@
+from setuptools import setup, find_packages
+
+setup(
+    name='recently_visited_page_middleware',
+    version='0.1',
+    author='Abiola Adeshina',
+    author_email='abiolaadeshinaadedayo@gmail.com,
+    description='Django middleware for tracking recently visited pages',
+    long_description='A Django middleware that tracks and stores recently visited pages for authenticated users.',
+    url='https://github.com/yourusername/recently-visited-page-middleware',
+    packages=find_packages(),
+    install_requires=[
+        'Django',
+        'djangorestframework',
+    ],
+    classifiers=[
+        'Development Status :: 3 - Alpha',
+        'Framework :: Django',
+        'Intended Audience :: Developers',
+        'License :: OSI Approved :: MIT License',
+        'Programming Language :: Python :: 3',
+        'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.7',
+        'Programming Language :: Python :: 3.8',
+        'Programming Language :: Python :: 3.9',
+    ],
+)
