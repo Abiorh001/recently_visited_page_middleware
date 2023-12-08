@@ -7,7 +7,7 @@ A Django middleware to track and retrieve recently visited pages for authenticat
 Install the package using pip:
 
 ```bash
-pip install recently-visited-page-middleware==0.1
+pip install recently-visited-page-middleware
 ```
 
 Add the app to your `INSTALLED_APPS` in your Django project's settings:
