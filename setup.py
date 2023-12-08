@@ -6,7 +6,8 @@ setup(
     author='Abiola Adeshina',
     author_email='abiolaadeshinaadedayo@gmail.com',
     description='Django middleware for tracking recently visited pages',
-    long_description='A Django middleware that tracks and stores recently visited pages for authenticated users.',
+    long_description=open('README.md').read(),
+    long_description_content_type='text/markdown',
     url='https://github.com/Abiorh001/recently_visited_page_middleware.git',
     packages=find_packages(),
     install_requires=[
