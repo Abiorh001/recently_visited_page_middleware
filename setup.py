@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='recently_visited_page_middleware',
-    version='0.1',
+    version='0.1.1',
     author='Abiola Adeshina',
     author_email='abiolaadeshinaadedayo@gmail.com',
     description='Django middleware for tracking recently visited pages',
